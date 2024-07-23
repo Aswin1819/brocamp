@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YoutubeClone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="YoutubeClone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav">
+            <div class="icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="image">
+                <img src="logo.png" alt="Ytlogo" height="75px">
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="mic">
+                <i class="fa-solid fa-microphone"></i>
+            </div>
+            <div class="create">
+                <i class="fa-solid fa-video"></i>
+            </div>
+            <div class="bell">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <div class="profile">
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="main">
+            <div class="slidebar">
+                <div class="home">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="shorts">
+                    <i class="fa-solid fa-music"></i>
+                    <a href="#">Shorts</a>
+                </div>
+                <div class="subscription">
+                    <i class="fa-brands fa-youtube"></i>
+                    <a href="#">subscription</a>
+                </div>
+                <div class="line"></div>
+                <div class="you">
+                    <a href="#">You</a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <div class="your-channel">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="#">Your Channnel</a>
+                </div>
+                <div class="history">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    <a href="#">History</a>
+                </div>
+                <div class="playlists">
+                    <i class="fa-solid fa-list"></i>
+                    <a href="#">Playlists</a>
+                </div>
+                <div class="yourvedios">
+                    <i class="fa-solid fa-play"></i>
+                    <a href="#">Your vedio</a>
+                </div>
+                <div class="watchlater">
+                    <i class="fa-regular fa-clock"></i>
+                    <a href="#">Watch later</a>
+                </div>
+                <div class="likedvedios">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <a href="#">Liked Vedios</a>
+                </div>
+                <div class="line"></div>
+                <div class="head-subscription">
+                    <h5>Subscriptions</h5>
+                </div>
+                <div class="subscribed">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="#">Times now</a>
+                </div>
+                <div class="subscribed">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="#">NASA</a>
+                </div>
+                <div class="subscribed">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="#">Max</a>
+                </div>
+                <div class="subscribed">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="#">Simplilearn</a>
+                </div>
+                <div class="line"></div>
+                <div class="explore">
+                    <h5>Explore</h5>
+                </div>
+                <div class="trending">
+                    <i class="fa-solid fa-fire"></i>
+                    <a href="#">Trending</a>
+                </div>
+                <div class="shopping">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <a href="#">Shopping</a>
+                </div>
+                <div class="music">
+                    <i class="fa-solid fa-music"></i>
+                    <a href="#">Music</a>
+                </div>
+                <div class="films">
+                    <i class="fa-solid fa-clapperboard"></i>
+                    <a href="#">Films</a>
+                </div>
+                <div class="live">
+                    <i class="fa-solid fa-tower-broadcast"></i>
+                    <a href="#">Live</a>
+                </div>
+                <div class="gaming">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <a href="#">Gaming</a>
+                </div>
+                <div class="news">
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                    <a href="#">News</a>
+                </div>
+                <div class="sport">
+                    <i class="fa-solid fa-trophy"></i>
+                    <a href="#">Sports</a>
+                </div>
+                <div class="line"></div>
+                <div class="setting">
+                    <i class="fa-solid fa-gear"></i>
+                    <a href="#">Settings</a>
+                </div>
+                <div class="setting">
+                    <i class="fa-regular fa-flag"></i>
+                    <a href="#">Report</a>
+                </div>
+                <div class="setting">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <a href="#">Help</a>
+                </div>
+                <div class="setting">
+                    <i class="fa-regular fa-message"></i>
+                    <a href="#">send Feedback</a>
+                </div>
+                <div class="line"></div>
+                <div class="desc">
+                    <p>
+                        About Press Copyright <br>Contact us Creator Advertise <br>Developers
+                    </p>
+                    <p>
+                        Terms PrivacyPolicy & Safety <br>How YouTube works <br>Test new features
+                    </p>
+                    <p class="copyright"><small>© 2024 GOOGLE LLC</small></p>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="filters">
+                    <button>All</button>
+                    <button>css</button>
+                    <button>House Targaryan</button>
+                    <button>computer programming</button>
+                    <button>Tamil cinema</button>
+                    <button>Trailers</button>
+                    <button>Job Interviews</button>
+                    <button>Graphic Design</button>
+                    <button>Laptops</button>
+                    <button>English</button>
+                    <button>Pyhton</button>
+                    <button>Travel</button>
+                </div>
+                <div class="grid-container">
+                    <div class="box">
+                        <iframe width="445" height="250"
+                            src="https://www.youtube.com/embed/WX4N10A-wSI?si=zZqnZdoUZqePI7Jy"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="descri">
+                            <div class="profile-two">
+                                <img src="profile-pec-1.jpg" width="40px" height="40px">
+                            </div>
+                            <div class="description">
+                                <h3>The best way to learn English| in my humble opinion.|</h3>
+                                <p class="channel-name">Learn English with Bob the Canadian</p>
+                                <p class="views-time">2.4M views.4 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <iframe width="445" height="250"
+                            src="https://www.youtube.com/embed/WX4N10A-wSI?si=zZqnZdoUZqePI7Jy"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="descri">
+                            <div class="profile-two">
+                                <img src="profile-pec-1.jpg" width="40px" height="40px">
+                            </div>
+                            <div class="description">
+                                <h3>The best way to learn English| in my humble opinion.|</h3>
+                                <p class="channel-name">Learn English with Bob the Canadian</p>
+                                <p class="views-time">2.4M views.4 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <iframe width="445" height="250"
+                            src="https://www.youtube.com/embed/WX4N10A-wSI?si=zZqnZdoUZqePI7Jy"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="descri">
+                            <div class="profile-two">
+                                <img src="profile-pec-1.jpg" width="40px" height="40px">
+                            </div>
+                            <div class="description">
+                                <h3>The best way to learn English| in my humble opinion.|</h3>
+                                <p class="channel-name">Learn English with Bob the Canadian</p>
+                                <p class="views-time">2.4M views.4 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <iframe width="445" height="250"
+                            src="https://www.youtube.com/embed/WX4N10A-wSI?si=zZqnZdoUZqePI7Jy"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="descri">
+                            <div class="profile-two">
+                                <img src="profile-pec-1.jpg" width="40px" height="40px">
+                            </div>
+                            <div class="description">
+                                <h3>The best way to learn English| in my humble opinion.|</h3>
+                                <p class="channel-name">Learn English with Bob the Canadian</p>
+                                <p class="views-time">2.4M views.4 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <iframe width="445" height="250"
+                            src="https://www.youtube.com/embed/WX4N10A-wSI?si=zZqnZdoUZqePI7Jy"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="descri">
+                            <div class="profile-two">
+                                <img src="profile-pec-1.jpg" width="40px" height="40px">
+                            </div>
+                            <div class="description">
+                                <h3>The best way to learn English| in my humble opinion.|</h3>
+                                <p class="channel-name">Learn English with Bob the Canadian</p>
+                                <p class="views-time">2.4M views.4 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <iframe width="445" height="250"
+                            src="https://www.youtube.com/embed/WX4N10A-wSI?si=zZqnZdoUZqePI7Jy"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="descri">
+                            <div class="profile-two">
+                                <img src="profile-pec-1.jpg" width="40px" height="40px">
+                            </div>
+                            <div class="description">
+                                <h3>The best way to learn English| in my humble opinion.|</h3>
+                                <p class="channel-name">Learn English with Bob the Canadian</p>
+                                <p class="views-time">2.4M views.4 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box"><iframe width="445" height="250"
+                            src="https://www.youtube.com/embed/WX4N10A-wSI?si=zZqnZdoUZqePI7Jy"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="descri">
+                            <div class="profile-two">
+                                <img src="profile-pec-1.jpg" width="40px" height="40px">
+                            </div>
+                            <div class="description">
+                                <h3>The best way to learn English| in my humble opinion.|</h3>
+                                <p class="channel-name">Learn English with Bob the Canadian</p>
+                                <p class="views-time">2.4M views.4 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box"><iframe width="445" height="250"
+                            src="https://www.youtube.com/embed/WX4N10A-wSI?si=zZqnZdoUZqePI7Jy"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="descri">
+                            <div class="profile-two">
+                                <img src="profile-pec-1.jpg" width="40px" height="40px">
+                            </div>
+                            <div class="description">
+                                <h3>The best way to learn English| in my humble opinion.|</h3>
+                                <p class="channel-name">Learn English with Bob the Canadian</p>
+                                <p class="views-time">2.4M views.4 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box"><iframe width="445" height="250"
+                            src="https://www.youtube.com/embed/WX4N10A-wSI?si=zZqnZdoUZqePI7Jy"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="descri">
+                            <div class="profile-two">
+                                <img src="profile-pec-1.jpg" width="40px" height="40px">
+                            </div>
+                            <div class="description">
+                                <h3>The best way to learn English| in my humble opinion.|</h3>
+                                <p class="channel-name">Learn English with Bob the Canadian</p>
+                                <p class="views-time">2.4M views.4 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box"><iframe width="445" height="250"
+                            src="https://www.youtube.com/embed/WX4N10A-wSI?si=zZqnZdoUZqePI7Jy"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="descri">
+                            <div class="profile-two">
+                                <img src="profile-pec-1.jpg" width="40px" height="40px">
+                            </div>
+                            <div class="description">
+                                <h3>The best way to learn English| in my humble opinion.|</h3>
+                                <p class="channel-name">Learn English with Bob the Canadian</p>
+                                <p class="views-time">2.4M views.4 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box"><iframe width="445" height="250"
+                            src="https://www.youtube.com/embed/WX4N10A-wSI?si=zZqnZdoUZqePI7Jy"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="descri">
+                            <div class="profile-two">
+                                <img src="profile-pec-1.jpg" width="40px" height="40px">
+                            </div>
+                            <div class="description">
+                                <h3>The best way to learn English| in my humble opinion.|</h3>
+                                <p class="channel-name">Learn English with Bob the Canadian</p>
+                                <p class="views-time">2.4M views.4 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box"><iframe width="445" height="250"
+                            src="https://www.youtube.com/embed/WX4N10A-wSI?si=zZqnZdoUZqePI7Jy"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="descri">
+                            <div class="profile-two">
+                                <img src="profile-pec-1.jpg" width="40px" height="40px">
+                            </div>
+                            <div class="description">
+                                <h3>The best way to learn English| in my humble opinion.|</h3>
+                                <p class="channel-name">Learn English with Bob the Canadian</p>
+                                <p class="views-time">2.4M views.4 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+</body>
+
+</html>

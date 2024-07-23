@@ -1,0 +1,420 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+.nav{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.icon{
+    margin-left: 25px;
+}
+.icon i{
+    font-size: 25px;
+    color: white;
+}
+.image{
+    margin-left: 10px;
+}
+.search{
+    margin-left: 280px;
+}
+.search input{
+    height: 40px;
+    width: 500px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    opacity: 0.5;
+    border-radius: 30px;
+    padding-left: 30px;
+}
+.search input::placeholder{
+    color: white;
+    font-size: 16px;
+}
+.mic{
+    margin-left: 20px;
+}
+.mic i{
+    color: rgb(230, 223, 223);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(91, 85, 85);
+    border-radius: 30px;
+    font-size: 20px;
+}
+.create{
+    margin-left: 250px;
+}
+.create i{
+    color: white;
+    font-size: 22px;
+}
+.bell{
+    
+    margin-left: 20px;
+}
+.bell i{
+    color: white;
+    font-size: 20px;
+}
+.profile{
+    margin-left: 20px;
+}
+.profile i{
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+    background-color: gray;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    position: fixed;
+    
+}
+.main{
+    display: flex;
+    overflow: auto;
+}
+.slidebar{
+    height: 100vh;
+    width: 200px;
+    background-color:transparent;
+    padding-left: 25px;
+    margin-top: 20px;
+    overflow: scroll;
+    margin-top: 88px;
+}
+.slidebar::-webkit-scrollbar{
+    display: none;
+}
+
+.home a{
+    color: white;
+    text-decoration-line: none;
+    margin-left: 35px;
+}
+.home i{
+    color: white;
+    font-size: 20px;
+}
+.shorts i{
+    color: white;
+    font-size: 20px;
+}
+.shorts a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.shorts{
+    margin-top: 20px;
+}
+.subscription i{
+    color: white;
+    font-size: 20px;
+}
+.subscription a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.subscription{
+    margin-top: 20px;
+}
+.line{
+    height: 1px;
+    width: auto;
+    background-color: white;
+    opacity: 0.4;
+    margin-top: 20px;
+}
+.you{
+    margin-top: 25px;
+}
+.you i{
+    color: white;
+    margin-left: 25px;
+}
+.you a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.your-channel{
+    margin-top: 20px;
+}
+.your-channel i{
+    color: white;
+    height: 15px;
+    width: 15px;
+    border: 2px solid white;
+    
+}
+.your-channel a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.history{
+    margin-top: 20px;
+}
+.history i{
+    color: white;
+}
+.history a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.playlists{
+    margin-top: 20px;
+}
+.playlists i{
+    color: white;
+}
+.playlists a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.yourvedios{
+    margin-top: 20px;
+}
+.yourvedios i{
+    color: white;
+    height: 15px;
+    width: 15px;
+    border: 2px solid white;
+}
+.yourvedios a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.watchlater{
+    margin-top: 20px;
+}
+.watchlater i{
+    color: white;
+}
+.watchlater a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.likedvedios{
+    margin-top: 20px;
+}
+.likedvedios i{
+    color: white;
+}
+.likedvedios a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+h5{
+    color: white;
+    margin-top: 15px;
+    font-size: 17px;
+}
+.subscribed{
+    margin-top: 20px;
+}
+.subscribed i{
+    color: white;
+}
+.subscribed a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.trending{
+    margin-top: 20px;
+}
+.trending i{
+    color: white;
+}
+.trending a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.shopping{
+    margin-top: 20px;
+}
+.shopping i{
+    color: white;
+}
+.shopping a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.music{
+    margin-top: 20px;
+}
+.music i{
+    color: white;
+}
+.music a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.films{
+    margin-top: 20px;
+}
+.films i{
+    color: white;
+}
+.films a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.live{
+    margin-top: 20px;
+}
+.live i{
+    color: white;
+}
+.live a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.gaming , .news,.sport{
+    margin-top: 20px;
+}
+.gaming i , .news i, .sport i{
+    color: white;
+}
+.gaming a , .news a, .sport a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.setting{
+    margin-top: 20px;
+}
+.setting i{
+    color: white;
+    font-size: 20px;
+}
+.setting a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.desc{
+    margin-top: 20px;
+}
+.desc p{
+    color: rgba(241, 249, 250, 0.671);
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: lighter;
+    margin-bottom: 16px;
+}
+.copyright{
+    color: white;
+    opacity: 0.5;
+}
+
+.filters{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background:black;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-top: 75px;
+    margin-left: 27px;
+}
+.filters::-webkit-scrollbar{
+    display: none;
+}
+.filters button{
+    flex: 0 0 auto;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: rgb(56, 50, 50);
+    border:none;	
+    text-transform: capitalize;
+    margin-right: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 2px;
+    row-gap: 3px;
+    padding: 5px;
+    margin-top: 135px;
+    margin-left: 40px;
+}
+
+.descri{
+    display: flex;
+}
+
+.box iframe{
+    border-top-left-radius: 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+}
+.profile-two{
+    background-color: transparent;
+    display: flex;
+    align-content: center;
+    width: 40px;
+}
+.profile-two img{
+    border-radius: 50%;
+    padding-top: 10px;
+}
+.description{
+    color: white;
+    padding: 10px;
+    max-width: 380px;
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.channel-name{
+    font-size: 14px;
+    font-weight: 100;
+    opacity: 0.8;
+}
+.views-time{
+    font-weight: 100;
+    font-size: 13px;
+    opacity: 0.8;
+}
+
